@@ -16,7 +16,7 @@ public class Snack6 {
 		for (int i = 0; i < stringNum.length(); i++) {
 			char charNum = stringNum.charAt(i);
 			int charConverted = charNum - '0'; // 0 vale 48 e fino a 9 il valore aumenta di uno in uno, 
-			//sottraendo quindi ad esempio 1 (49) a 0 (48) avremo il suo valore reale in int (che è appunto 1)
+			//sottraendo quindi ad esempio 0 (48) a 1 (49) avremo il suo valore reale in int (che è appunto 1)
 			 intNum = intNum * 10 + charConverted; //aggiungi uno zero (*10) per la prox iterazione (nella prima 0*0 è 0)
 		}
 		
