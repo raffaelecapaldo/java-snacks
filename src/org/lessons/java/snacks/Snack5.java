@@ -35,11 +35,13 @@ public class Snack5 {
 			
 			if (string.equals("0")) {
 				System.out.println("Programma interrotto!");
-				return;
+			}
+			else {
+				System.out.println("La stringa contiene: " + letters + " carrateri alfabetici, "
+						+ numbers + " numeri e " + symbols + " simboli non alfanumerici");
 			}
 			
-			System.out.println("La stringa contiene: " + letters + " carrateri alfabetici, "
-					+ numbers + " numeri e " + symbols + " simboli non alfanumerici");
+		
 		}
 
 	}
