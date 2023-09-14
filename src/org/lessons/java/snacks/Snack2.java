@@ -17,8 +17,8 @@ public class Snack2 {
 		System.out.println("Lista invitati");
 		for (int i = 0; i < 3; i++ ) {
 			Random rand = new Random();
-			int rand1 = rand.nextInt(names.length - 1);
-			int rand2 = rand.nextInt(surnames.length - 1);
+			int rand1 = rand.nextInt(names.length);
+			int rand2 = rand.nextInt(surnames.length);
 
 			String person = names[rand1] + " " + surnames[rand2];
 			
